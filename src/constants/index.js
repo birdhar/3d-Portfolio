@@ -4,17 +4,16 @@ import {
   creator,
   web,
   javascript,
-  typescript,
   html,
   css,
   reactjs,
+  nextjs,
   redux,
   tailwind,
   nodejs,
   mongodb,
   git,
-  figma,
-  docker,
+  graphql,
   meta,
   starbucks,
   tesla,
@@ -73,16 +72,20 @@ const technologies = [
     icon: javascript,
   },
   {
-    name: "TypeScript",
-    icon: typescript,
-  },
-  {
     name: "React JS",
     icon: reactjs,
   },
   {
+    name: "Next JS",
+    icon: nextjs,
+  },
+  {
     name: "Redux Toolkit",
     icon: redux,
+  },
+  {
+    name: "GraphQl",
+    icon: graphql,
   },
   {
     name: "Tailwind CSS",
@@ -104,14 +107,14 @@ const technologies = [
     name: "git",
     icon: git,
   },
-  {
-    name: "figma",
-    icon: figma,
-  },
-  {
-    name: "docker",
-    icon: docker,
-  },
+  // {
+  //   name: "figma",
+  //   icon: figma,
+  // },
+  // {
+  //   name: "docker",
+  //   icon: docker,
+  // },
 ];
 
 const experiences = [
