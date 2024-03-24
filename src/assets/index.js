@@ -1,6 +1,5 @@
 import logo from "./logo.png";
-import backend from "./backend.png";
-import creator from "./creator.png";
+
 import mobile from "./mobile.png";
 import web from "./web.png";
 import github from "./github.png";
@@ -21,20 +20,15 @@ import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
-
+import computer from "./computer.svg";
 import meta from "./company/meta.png";
-import shopify from "./company/shopify.png";
-import starbucks from "./company/starbucks.png";
-import tesla from "./company/tesla.png";
-
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
+import emart from "./emart.png";
+import realtalk from "./realtalk.png";
+import qviple from "./company/qviple.png";
+import techdock from "./company/techdock.png";
 
 export {
   logo,
-  backend,
-  creator,
   mobile,
   web,
   github,
@@ -56,10 +50,9 @@ export {
   typescript,
   threejs,
   meta,
-  shopify,
-  starbucks,
-  tesla,
-  carrent,
-  jobit,
-  tripguide,
+  computer,
+  qviple,
+  techdock,
+  emart,
+  realtalk,
 };

@@ -1,7 +1,5 @@
 import {
   mobile,
-  backend,
-  creator,
   web,
   javascript,
   html,
@@ -14,14 +12,11 @@ import {
   mongodb,
   git,
   graphql,
-  meta,
-  starbucks,
-  tesla,
-  shopify,
-  carrent,
-  jobit,
-  tripguide,
   threejs,
+  qviple,
+  techdock,
+  emart,
+  realtalk,
 } from "../assets";
 
 export const navLinks = [
@@ -44,18 +39,18 @@ const services = [
     title: "Web Developer",
     icon: web,
   },
-  {
-    title: "React Native Developer",
-    icon: mobile,
-  },
-  {
-    title: "Backend Developer",
-    icon: backend,
-  },
-  {
-    title: "Content Creator",
-    icon: creator,
-  },
+  // {
+  //   title: "React Native Developer",
+  //   icon: mobile,
+  // },
+  // {
+  //   title: "Backend Developer",
+  //   icon: backend,
+  // },
+  // {
+  //   title: "Content Creator",
+  //   icon: creator,
+  // },
 ];
 
 const technologies = [
@@ -83,26 +78,26 @@ const technologies = [
     name: "Redux Toolkit",
     icon: redux,
   },
-  {
-    name: "GraphQl",
-    icon: graphql,
-  },
+  // {
+  //   name: "GraphQl",
+  //   icon: graphql,
+  // },
   {
     name: "Tailwind CSS",
     icon: tailwind,
   },
-  {
-    name: "Node JS",
-    icon: nodejs,
-  },
-  {
-    name: "MongoDB",
-    icon: mongodb,
-  },
-  {
-    name: "Three JS",
-    icon: threejs,
-  },
+  // {
+  //   name: "Node JS",
+  //   icon: nodejs,
+  // },
+  // {
+  //   name: "MongoDB",
+  //   icon: mongodb,
+  // },
+  // {
+  //   name: "Three JS",
+  //   icon: threejs,
+  // },
   {
     name: "git",
     icon: git,
@@ -119,55 +114,28 @@ const technologies = [
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
-    iconBg: "#383E56",
-    date: "March 2020 - April 2021",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
+    title: "Frontend Developer",
+    company_name: "Qviple",
+    icon: qviple,
     iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    date: "Jun 2022 - Jan 2024",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Worked on the development of Qviple web application using React.js resulting in an increase in user engagement and improvement in page load times.",
+      "Implemented state management using Redux, effectively managing the application’s state and improving data flow.",
+      "Led the design and development of landing page to promote product features incorporating SEO best practices to enhance online visibility.",
+      "Developed a user-friendly and responsive documentation platform that effectively communicated technical concepts and provided clear instructions for developers and end-users.",
     ],
   },
   {
-    title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
-    iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
+    title: "ReactJS Developer",
+    company_name: "Techdock Labs",
+    icon: techdock,
     iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
+    date: "Jan 2022 - May 2022",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      " Collaborated with senior developers to build and maintain web applications using React.js, ensuring optimal user experiences.",
+      "Worked closely with the design team to implement responsive and visually appealing UI components.",
+      "Gained hands-on experience with state management using tools like Redux, debugging of React components and application efficiency.",
     ],
   },
 ];
@@ -201,12 +169,12 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "EMart",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "A eCommerce platform  offering a seamless shopping experience for users with intuitive navigation and robust functionality to meet the needs of both buyers and sellers.",
     tags: [
       {
-        name: "react",
+        name: "next",
         color: "blue-text-gradient",
       },
       {
@@ -218,50 +186,34 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: emart,
+    source_code_link: "https://github.com/birdhar/ecommercenext",
   },
   {
-    name: "Job IT",
+    name: "RealTalk",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "A real-time communication application built using WebRTC for audio and video communication and Agora RTM (Real-Time Messaging) for instant messaging.",
     tags: [
       {
-        name: "react",
+        name: "html",
         color: "blue-text-gradient",
       },
-      {
-        name: "restapi",
-        color: "green-text-gradient",
-      },
-      {
-        name: "scss",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: jobit,
-    source_code_link: "https://github.com/",
-  },
-  {
-    name: "Trip Guide",
-    description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-    tags: [
-      {
-        name: "nextjs",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "supabase",
-        color: "green-text-gradient",
-      },
+
       {
         name: "css",
         color: "pink-text-gradient",
       },
+      {
+        name: "javascript",
+        color: "green-text-gradient",
+      },
+      {
+        name: "webrtc",
+        color: "pink-text-gradient",
+      },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: realtalk,
+    source_code_link: "https://github.com/birdhar/RealTalk",
   },
 ];
 

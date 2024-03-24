@@ -35,29 +35,32 @@ const ServiceCard = ({ index, title, icon }) => (
 
 const About = () => {
   return (
-    <>
-      <motion.div variants={textVariant()}>
-        <p className={styles.sectionSubText}>Introduction</p>
-        <h2 className={styles.sectionHeadText}>Overview.</h2>
-      </motion.div>
+    <div className="flex justify-between items-center flex-col md:flex-row">
+      <div className="w-[60%] md:w-[50%] ">
+        <motion.div variants={textVariant()}>
+          <p className={styles.sectionSubText}>Introduction</p>
+          <h2 className={styles.sectionHeadText}>Overview.</h2>
+        </motion.div>
 
-      <motion.p
-        variants={fadeIn("", "", 0.1, 1)}
-        className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
-      >
-        I'm a skilled software developer with experience in TypeScript and
-        JavaScript, and expertise in frameworks like React, Node.js, and
-        Three.js. I'm a quick learner and collaborate closely with clients to
-        create efficient, scalable, and user-friendly solutions that solve
-        real-world problems. Let's work together to bring your ideas to life!
-      </motion.p>
+        <motion.p
+          variants={fadeIn("", "", 0.1, 1)}
+          className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
+        >
+          I'm a passionate frontend developer with a specialization in React.js.
+          With almost 2 years of experience in the field, I've had the pleasure
+          of working on a diverse range of projects where I've leveraged my
+          expertise in building dynamic and responsive user interfaces. I have a
+          proven track record of creating engaging web applications using
+          React.js, from concept to deployment.
+        </motion.p>
+      </div>
 
-      <div className="mt-20 flex flex-wrap gap-10">
+      <div className="flex-1 mt-20 flex flex-wrap gap-10 justify-end">
         {services.map((service, index) => (
           <ServiceCard key={service.title} index={index} {...service} />
         ))}
       </div>
-    </>
+    </div>
   );
 };
 export default SectionWrapper(About, "about");
